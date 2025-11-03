@@ -1,0 +1,27 @@
+# Checkpoints (large files)
+checkpoints/*/
+
+# Videos
+videos/
+*.mp4
+*.avi
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
