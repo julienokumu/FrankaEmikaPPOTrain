@@ -1,5 +1,5 @@
 #!/bin/bash
-# Go1 Handstand Policy Viewer
+# Panda Pick Cube Orientation Policy Viewer
 
 PYTHON="$HOME/mujoco_env/bin/python3"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

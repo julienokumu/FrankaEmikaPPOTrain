@@ -1,0 +1,19 @@
+# Core dependencies for Panda Pick Cube Orientation Policy Visualization
+# Install with: pip install -r requirements.txt
+
+# JAX ecosystem (use GPU version for better performance)
+jax>=0.4.20
+jaxlib>=0.4.20
+# For GPU support, install jax[cuda12] instead
+
+# MuJoCo and simulation
+mujoco>=3.0.0
+brax>=0.10.0
+
+# Media and visualization
+mediapy>=1.1.0
+numpy>=1.24.0
+
+# Note: unitree_rl_mugym must be installed separately
+# Clone from: https://github.com/unitreerobotics/unitree_rl_mugym
+# Install: pip install -e ~/unitree_rl_mugym
